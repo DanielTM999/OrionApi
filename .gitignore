@@ -5,3 +5,4 @@ target/
 .project
 .settings/
 .flattened-pom.xml
+.orion/
