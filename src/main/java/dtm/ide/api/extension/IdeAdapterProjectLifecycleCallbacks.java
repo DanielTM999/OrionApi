@@ -10,6 +10,15 @@ public interface IdeAdapterProjectLifecycleCallbacks {
     default void onProjectClosed(IdeProjectContext projectContext) {
     }
 
+    default void onProjectSwitched(IdeProjectContext oldContext, IdeProjectContext newContext) {
+        if (oldContext != null) {
+            onProjectClosed(oldContext);
+        }
+        if (newContext != null) {
+            onProjectOpened(newContext);
+        }
+    }
+
     default void clearCaches() {
     }
 }

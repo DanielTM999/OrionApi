@@ -42,6 +42,9 @@ public interface IdeAdapterScreenActions {
     }
 
     @Delegated
+    default void unregisterToolPanel(String panelId) {}
+
+    @Delegated
     default String registerToolAction(DockRegion region, String title, ToolIconType iconType, Runnable action) {
         return null;
     }

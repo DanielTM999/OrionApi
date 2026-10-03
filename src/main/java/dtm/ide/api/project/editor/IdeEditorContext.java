@@ -21,6 +21,10 @@ public interface IdeEditorContext {
 
     String getText();
 
+    default long getDocumentVersion() {
+        return -1;
+    }
+
     default boolean addProvider(CodeEditorProvider provider) {
         return false;
     }
@@ -128,6 +132,38 @@ public interface IdeEditorContext {
     int getCaretCol();
 
     int getCaretOffset();
+
+    default int getSelectionStart() {
+        return getSelectionStartOffset();
+    }
+
+    default int getSelectionEnd() {
+        return getSelectionEndOffset();
+    }
+
+    default void select(int start, int end) {
+        String text = getText();
+        if (start < 0 || end < start || end > text.length()) {
+            throw new IndexOutOfBoundsException("Invalid selection [" + start + ", " + end + ")");
+        }
+        int startLine = 0;
+        int startColumn = 0;
+        int endLine = 0;
+        int endColumn = 0;
+        for (int offset = 0; offset < end; offset++) {
+            if (text.charAt(offset) == '\n') {
+                endLine++;
+                endColumn = 0;
+            } else {
+                endColumn++;
+            }
+            if (offset + 1 == start) {
+                startLine = endLine;
+                startColumn = endColumn;
+            }
+        }
+        setSelection(startLine, startColumn, endLine, endColumn);
+    }
 
     void setCaretPosition(int line, int col);
 
