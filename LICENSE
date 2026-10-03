@@ -1,0 +1,185 @@
+ORION TEMPORARY SOURCE-AVAILABLE USE LICENSE
+Version 1.0 - June 16, 2026
+
+Copyright (c) 2026 Daniel Teixeira Melo.
+All rights reserved.
+
+This license governs the use of Orion IDE and its modules, including
+OrionApplication, OrionApi, OrionIdeCore, and Workbench (collectively, the
+"Software").
+
+IMPORTANT NOTICE
+
+This is a temporary source-available license. The source code may be made
+available for inspection and permitted use, but this license is not an open
+source license as defined by the Open Source Initiative because it restricts
+commercial use and modification.
+
+The author may replace this license in the future, including by adopting an
+open source license for later versions. A future license change does not
+automatically change the license terms for versions distributed under this
+license.
+
+1. PERMITTED USE
+
+Subject to the restrictions below, you may:
+
+a) download, install, and run the Software;
+b) use the Software for personal, educational, evaluation, research, or
+   internal non-commercial purposes;
+c) inspect the source code for understanding how the Software works; and
+d) make backup copies solely as necessary for the permitted use above.
+
+2. RESTRICTIONS
+
+You may not, without prior written permission from Daniel Teixeira Melo:
+
+a) use the Software for any commercial purpose;
+b) modify, adapt, translate, patch, or create derivative works of the Software;
+c) distribute, publish, sell, rent, lease, sublicense, host, or otherwise make
+   the Software available to third parties;
+d) use the Software to provide a paid service, hosted service, consulting
+   service, product, or commercial integration;
+e) remove, obscure, or alter copyright notices, license notices, attribution,
+   or proprietary notices in the Software;
+f) reverse engineer, decompile, or disassemble binary distributions of the
+   Software except to the extent such restriction is prohibited by applicable
+   law; or
+g) use the Software in any way that violates applicable law.
+
+3. OWNERSHIP
+
+The Software is licensed, not sold. Daniel Teixeira Melo retains all rights,
+title, and interest in and to the Software, including all intellectual property
+rights not expressly granted by this license.
+
+4. THIRD-PARTY COMPONENTS
+
+Third-party libraries, tools, assets, and dependencies included with or used by
+the Software remain subject to their own license terms. This license applies
+only to the Orion Software authored by Daniel Teixeira Melo, unless a file
+states otherwise.
+
+5. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, DANIEL TEIXEIRA MELO SHALL NOT BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY,
+OR PUNITIVE DAMAGES ARISING FROM OR RELATED TO THE SOFTWARE OR THIS LICENSE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+7. TERMINATION
+
+This license terminates automatically if you violate any of its terms. Upon
+termination, you must stop using the Software and delete or destroy all copies
+of the Software in your possession or control.
+
+8. GOVERNING LAW
+
+This license is governed by the laws of the Federative Republic of Brazil,
+without regard to conflict-of-law rules. Any dispute arising from this license
+shall be resolved in the courts of Salvador, Bahia, Brazil, unless applicable
+law requires otherwise.
+
+Daniel Teixeira Melo - 2026
+
+---
+
+LICENÇA TEMPORÁRIA DE USO COM CÓDIGO-FONTE DISPONÍVEL DO ORION
+Versão 1.0 - 16 de junho de 2026
+
+Copyright (c) 2026 Daniel Teixeira Melo.
+Todos os direitos reservados.
+
+Esta licença rege o uso do Orion IDE e de seus módulos, incluindo
+OrionApplication, OrionApi, OrionIdeCore e Workbench (em conjunto, o
+"Software").
+
+AVISO IMPORTANTE
+
+Esta é uma licença temporária de código-fonte disponível. O código-fonte pode
+ser disponibilizado para inspeção e uso permitido, mas esta licença não é uma
+licença de código aberto conforme definida pela Open Source Initiative, pois
+restringe uso comercial e modificação.
+
+O autor poderá substituir esta licença no futuro, inclusive adotando uma
+licença de código aberto para versões posteriores. Uma alteração futura de
+licença não altera automaticamente os termos de licença das versões
+distribuídas sob esta licença.
+
+1. USO PERMITIDO
+
+Sujeito às restrições abaixo, você pode:
+
+a) baixar, instalar e executar o Software;
+b) usar o Software para fins pessoais, educacionais, de avaliação, pesquisa ou
+   uso interno não comercial;
+c) inspecionar o código-fonte para entender como o Software funciona; e
+d) fazer cópias de segurança apenas quando necessário para o uso permitido
+   acima.
+
+2. RESTRIÇÕES
+
+Você não pode, sem autorização prévia por escrito de Daniel Teixeira Melo:
+
+a) usar o Software para qualquer finalidade comercial;
+b) modificar, adaptar, traduzir, corrigir, aplicar patches ou criar obras
+   derivadas do Software;
+c) distribuir, publicar, vender, alugar, arrendar, sublicenciar, hospedar ou
+   disponibilizar o Software a terceiros de qualquer outra forma;
+d) usar o Software para prestar serviço pago, serviço hospedado, consultoria,
+   produto ou integração comercial;
+e) remover, ocultar ou alterar avisos de direitos autorais, avisos de licença,
+   atribuição ou avisos proprietários presentes no Software;
+f) realizar engenharia reversa, descompilar ou desmontar distribuições
+   binárias do Software, exceto na medida em que tal restrição seja proibida
+   pela lei aplicável; ou
+g) usar o Software de qualquer forma que viole a lei aplicável.
+
+3. TITULARIDADE
+
+O Software é licenciado, não vendido. Daniel Teixeira Melo mantém todos os
+direitos, títulos e interesses sobre o Software, incluindo todos os direitos de
+propriedade intelectual não concedidos expressamente por esta licença.
+
+4. COMPONENTES DE TERCEIROS
+
+Bibliotecas, ferramentas, ativos e dependências de terceiros incluídos com ou
+utilizados pelo Software permanecem sujeitos aos seus próprios termos de
+licença. Esta licença se aplica somente ao Software Orion de autoria de Daniel
+Teixeira Melo, salvo se algum arquivo declarar o contrário.
+
+5. AUSÊNCIA DE GARANTIA
+
+O SOFTWARE É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA", SEM GARANTIA DE
+QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, SEM LIMITAÇÃO, GARANTIAS DE
+COMERCIALIZAÇÃO, ADEQUAÇÃO A UMA FINALIDADE ESPECÍFICA, TITULARIDADE E NÃO
+VIOLAÇÃO DE DIREITOS.
+
+6. LIMITAÇÃO DE RESPONSABILIDADE
+
+NA MÁXIMA EXTENSÃO PERMITIDA PELA LEI, DANIEL TEIXEIRA MELO NÃO SERÁ
+RESPONSÁVEL POR QUAISQUER DANOS DIRETOS, INDIRETOS, INCIDENTAIS, ESPECIAIS,
+CONSEQUENCIAIS, EXEMPLARES OU PUNITIVOS DECORRENTES OU RELACIONADOS AO
+SOFTWARE OU A ESTA LICENÇA, AINDA QUE TENHA SIDO AVISADO DA POSSIBILIDADE DE
+TAIS DANOS.
+
+7. RESCISÃO
+
+Esta licença será rescindida automaticamente se você violar qualquer um de seus
+termos. Após a rescisão, você deverá parar de usar o Software e excluir ou
+destruir todas as cópias do Software em sua posse ou controle.
+
+8. LEI APLICÁVEL
+
+Esta licença é regida pelas leis da República Federativa do Brasil, sem
+considerar regras de conflito de leis. Qualquer disputa decorrente desta
+licença será resolvida nos tribunais de Salvador, Bahia, Brasil, salvo se a lei
+aplicável exigir de outra forma.
+
+Daniel Teixeira Melo - 2026
