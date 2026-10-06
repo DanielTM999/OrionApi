@@ -9,6 +9,7 @@ import java.awt.Dialog;
 import java.awt.Dimension;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
+import java.util.function.BooleanSupplier;
 
 @Getter
 @Builder
@@ -22,6 +23,8 @@ public final class PlatformPopupBuilder {
     private final Consumer<JComponent> onDrawing;
     private final Consumer<JComponent> onLoad;
     private final Consumer<JComponent> onClose;
+    /** Return false to keep the popup open after a user close request. */
+    private final BooleanSupplier onCloseRequest;
     private final Consumer<JComponent> onLostFocus;
     private final Consumer<JComponent> onFocus;
     private final Consumer<PopupResizeContext> onResize;

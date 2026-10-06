@@ -10,9 +10,9 @@ import dtm.stools.component.popup.ModernComponentDialog;
 import dtm.stools.component.popup.ModernDialog;
 import dtm.stools.component.popup.ModernInputDialog;
 import lombok.NonNull;
-
 import javax.swing.Icon;
 import javax.swing.JComponent;
+import java.awt.Component;
 import java.awt.Dimension;
 import java.nio.file.Path;
 import java.util.Optional;
@@ -147,7 +147,22 @@ public interface IdeAdapterScreenActions {
     }
 
     @Delegated
+    default <T> ModernComponentDialog.ModernComponentDialogBuilder<T> createModernComponentDialogBuilder(Component parent){
+        return null;
+    }
+
+    @Delegated
+    default <T> ModernComponentDialog.ModernComponentDialogBuilder<T> createModernComponentDialogBuilder(Class<T> clazz, Component parent){
+        return null;
+    }
+
+    @Delegated
     default ModernDialog.ModernDialogBuilder createModernDialogBuilder(){
+        return null;
+    }
+
+    @Delegated
+    default ModernDialog.ModernDialogBuilder createModernDialogBuilder(Component parent){
         return null;
     }
 
@@ -157,5 +172,14 @@ public interface IdeAdapterScreenActions {
     }
 
     @Delegated
+    default ModernInputDialog.ModernInputDialogBuilder createModernInputDialogBuilder(Component parent){
+        return null;
+    }
+
+    @Delegated
     default void showPopup(@NonNull PlatformPopupBuilder popup) {}
+
+    /** Opens a popup and returns its current state and lifecycle controls. */
+    @Delegated
+    default PlatformPopupHandle openPopup(@NonNull PlatformPopupBuilder popup) { return null; }
 }
