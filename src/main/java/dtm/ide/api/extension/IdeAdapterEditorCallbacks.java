@@ -6,6 +6,7 @@ import dtm.ide.api.hierarchy.CallHierarchyCall;
 import dtm.ide.api.hierarchy.CallHierarchyItem;
 import dtm.ide.api.hierarchy.TypeHierarchyItem;
 import dtm.ide.api.project.editor.*;
+import dtm.ide.api.project.editor.view.IdeEditorViewModesBuilder;
 import dtm.ide.api.theme.EditorTheme;
 import dtm.stools.component.panels.editor.code.CodeEditor;
 import dtm.stools.component.panels.editor.code.api.CodeAction;
@@ -127,6 +128,7 @@ public interface IdeAdapterEditorCallbacks {
     default void onFindUsages(IdeEditorContext context) {}
     default void contributeEditorMenu(IdeMenuBuilder menu, IdeEditorContext editorContext) {}
     default void contributeTabMenu(IdeMenuBuilder menu, IdeTabMenuContext context) {}
+    default void contributeEditorViewModes(IdeEditorViewModesBuilder modes, IdeEditorContext editorContext) {}
     default String formatCode(FormatCodeContext formatCodeContext) { return null; }
     default void onEditorOpen(IdeEditorContext editorContext) {}
     default void onEditorSelected(IdeEditorContext editorContext) {}
